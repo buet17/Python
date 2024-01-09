@@ -37,10 +37,16 @@ class child(baba):
     bike='R15'
     mobile='iphone 5'
 
+class child2(child):
+    laptop='HP'
+
 p1=baba()
 p2=child()
 print(child.bike)
 print(child.car)
+# print(child.home)
+print(child2.home)
 
 del p1
 del p2
+#Done
