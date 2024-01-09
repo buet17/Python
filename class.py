@@ -20,5 +20,10 @@ class Person:
     def __str__(self,):
         return  f"{self.name}({self.age})"
     
+    def x(self):
+        print("Hello my name is: " + self.name,self.age)
+    
 p1=Person("John",35)
 print(p1)
+
+p1.x()
